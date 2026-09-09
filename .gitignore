@@ -1,0 +1,7 @@
+## Visual Studio / User files
+.vs/
+*.user
+
+## Build results
+bin/
+obj/
