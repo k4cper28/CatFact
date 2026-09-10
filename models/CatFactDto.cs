@@ -1,11 +1,11 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace CatFact.models;
+namespace CatFact.Models;
 
 public class CatFactDto
  {
     [JsonPropertyName("fact")]
-    public string CatId { get; set; } = string.Empty;
+    public string Fact { get; set; } = string.Empty;
 
 
     [JsonPropertyName("lenght")]

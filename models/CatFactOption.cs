@@ -1,4 +1,4 @@
-﻿namespace CatFact.models;
+﻿namespace CatFact.Models;
 
 public class CatFactOption
 {
