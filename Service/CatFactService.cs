@@ -35,7 +35,7 @@ public class CatFactService : ICatFactService
         catch (Exception ex)
         {
             _logger.LogError(ex, "Otrzymano pustą odpowiedz z Api.");
-            return null;
+            throw;
         }
 
         if (fact is null)

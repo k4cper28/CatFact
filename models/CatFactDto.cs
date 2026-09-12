@@ -8,7 +8,7 @@ public class CatFactDto
     public string Fact { get; set; } = string.Empty;
 
 
-    [JsonPropertyName("lenght")]
+    [JsonPropertyName("length")]
     public int Lenght { get; set; }
 
  }

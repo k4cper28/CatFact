@@ -8,7 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+    <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+    <PackageReference Include="Xunit" Version="2.9.3" />
+	<Compile Remove="CatFact.Test\**;catFact.Test\**" />
+	<EmbeddedResource Remove="CatFact.Test\**;catFact.Test\**" />
+	<None Remove="CatFact.Test\**;catFact.Test\**" />
+	<Content Remove="CatFact.Test\**;catFact.Test\**" />
   </ItemGroup>
 
 </Project>
